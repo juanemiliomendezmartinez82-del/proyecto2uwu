@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #434343, #000000);
+    color: white;
+}
+
+header{
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+main{
+    padding: 40px;
+}
+
+video{
+    display: block;
+    width: 100%;
+    height: auto;
+    background: black;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
